@@ -20,19 +20,14 @@ section{
 }
 .half-width-img{
     width: 30%;
+    margin: 1%
 }
 .half-width-img img{
     width: 95%;
     display: block;
 }
-.three-block{
-    width: 25%;
-}
-.three-block img{
-    width: 50%;
-}
 .description{
-    padding-top: 30px;
+    padding-top: 80px;
 }
 h1{
     padding-left: 10px;
@@ -41,13 +36,13 @@ h1{
     border-left:  5px lightseagreen solid;
 }
 h2{
-    font-size: 40px;
+    font-size: 42px;
 }
 h3{
-    font-size: 32px;
+    font-size: 38px;
 }
 h4{
-    font-size: 25px;
+    font-size: 30px;
 }
 span{
     color: tomato;
@@ -63,6 +58,24 @@ a{
 }
 .text-center{
     text-align: center;
+}
+.three-block{
+    width: 32%;
+    margin: 1%;
+    padding: 15px;
+    border-radius: 20px;
+}
+#mission{
+    background-color: aquamarine;
+}
+#vision{
+    background-color: lightgray;
+}
+#goal{
+    background-color: lightpink;
+}
+.three-block img{
+    width: 50%;
 }
 .contact-container{
     background-image: url(images/shapes/shape-6.png);
@@ -95,4 +108,5 @@ footer p{
 ul{
     list-style-type: none;
     padding-bottom: 20px;
+    font-weight: 700;
 }

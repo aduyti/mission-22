@@ -1,12 +1,70 @@
 body{
     font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    text-align: justify;
+    font-size: 18px;
+}
+.flexible-container{
+    display: flex;
 }
 h1{
     font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    border-left:  5px lightseagreen solid;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 32px;
+}
+h4{
+    font-size: 25px;
+}
+span{
+    color: tomato;
+}
+.btn{
+    color: white;
+    background-color: tomato;
+    padding: 10px 20px;
+    border-radius:  5px;
+}
+a{
+    text-decoration: none;
+}
+.text-center{
+    text-align: center;
+}
+.contact-container{
+    background-image: url(images/shapes/shape-6.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 
 }
-
-
-footer h2{
-    font-family: 'Licorice', cursive;
+input{
+    border: 1px solid darkolivegreen;
+    padding: 10px;
+    border-radius: 5px;
+}
+button{
+    border: none;
+}
+footer{
+    background-color: mediumslateblue;
+    padding-top: px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+footer h1{
+    font-family: 'Dancing Script', cursive;
+}
+footer p{
+    font-size: 16px;
+    color: cornsilk;
+}
+ul{
+    list-style-type: none;
+    padding-bottom: 20px;
 }

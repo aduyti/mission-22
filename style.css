@@ -7,7 +7,35 @@ body{
 .flexible-container{
     display: flex;
 }
+section{
+    margin: auto;
+    width: 90%;
+    padding-bottom: 30px;
+}
+.margin-of-half{
+    margin-right: 15%;
+}
+.half-width-text{
+    width:  50%;
+}
+.half-width-img{
+    width: 30%;
+}
+.half-width-img img{
+    width: 95%;
+    display: block;
+}
+.three-block{
+    width: 25%;
+}
+.three-block img{
+    width: 50%;
+}
+.description{
+    padding-top: 30px;
+}
 h1{
+    padding-left: 10px;
     font-family: 'Roboto Slab', serif;
     font-size: 50px;
     border-left:  5px lightseagreen solid;
@@ -55,13 +83,13 @@ footer{
     background-color: mediumslateblue;
     padding-top: px;
     padding-bottom: 5px;
-    padding-top: 5px;
 }
-footer h1{
+footer h2{
     font-family: 'Dancing Script', cursive;
+    font-size: 35px
 }
 footer p{
-    font-size: 16px;
+    font-size: 14px;
     color: cornsilk;
 }
 ul{

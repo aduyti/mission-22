@@ -1,10 +1,12 @@
 body{
     font-family: 'Ubuntu', sans-serif;
 }
-
-
-
-.f{
-    font-family: 'Licorice', cursive;
+h1{
     font-family: 'Roboto Slab', serif;
+
+}
+
+
+footer h2{
+    font-family: 'Licorice', cursive;
 }
